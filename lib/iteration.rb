@@ -22,6 +22,7 @@ def find_greater_pair(src)
     max = (src[index][0] > src[index][1] ? src[index][0] : src[index][1])
     result.push(max)
   end 
+  result
 end
 
 def total_even_pairs(src)
